@@ -1,6 +1,6 @@
 import open3d as o3d
 
-class PointCloudProcessor:
+class Preprocess:
     def __init__(self):
         pass
 
@@ -39,7 +39,7 @@ def main():
     pcd = o3d.io.read_point_cloud("../data/desk_angledview.ply")
     
     # Create a processor instance
-    processor = PointCloudProcessor()
+    processor = Preprocess()
     
     # Process the point cloud
     cl, indices = processor(pcd)
