@@ -1,3 +1,8 @@
+## Reference
+- [PointNetGPD](https://github.com/lianghongzhuo/PointNetGPD)
+- [gpg](https://github.com/atenpas/gpg)
+- [gpd](https://github.com/atenpas/gpd)
+
 ## 用語
 
 - $h$ : グリッパーの6-DoFポーズ（姿勢と位置）
