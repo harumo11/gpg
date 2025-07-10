@@ -31,7 +31,6 @@ class Preprocess:
         :return: Downsampled PointCloud object
         """
         return pcd.voxel_down_sample(voxel_size=voxel_size)
-    
 
 
 def main():
